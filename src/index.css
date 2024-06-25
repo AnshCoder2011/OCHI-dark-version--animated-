@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "regular";
+    src: url(./fonts/NeueMontreal-Regular.ttf);
+}
+
+@font-face {
+    font-family: "semi";
+    src: url(./fonts/FoundersGrotesk-Semibold.ttf);
+}
+
+
+::-webkit-scrollbar {
+    width: .3px;
+    background: #000;
+}
+
